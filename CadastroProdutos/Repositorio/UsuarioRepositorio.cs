@@ -17,7 +17,7 @@ namespace CadastroProdutos.Repositorio
                 // Abre a conexão com o banco de dados MySQL.
                 conexao.Open();
                 // Cria um novo comando SQL para selecionar todos os campos da tabela 'Usuario' onde o campo 'Email' corresponde ao parâmetro fornecido.
-                MySqlCommand cmd = new("SELECT * FROM Usuarios WHERE Email = @email", conexao);
+                MySqlCommand cmd = new("SELECT * FROM tbUsuarios WHERE Email = @email", conexao);
                 // Adiciona um parâmetro ao comando SQL para o campo 'Email', especificando o tipo como VarChar e utilizando o valor do parâmetro 'email'.
                 cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = email;
 
@@ -62,7 +62,7 @@ namespace CadastroProdutos.Repositorio
                 /* Cria um novo comando SQL para inserir dados na tabela 'Usuario'. Os valores para Nome, Email e Senha são passados como parâmetros
                  (@Nome, @Email, @Senha) para evitar SQL Injection.*/
 
-                MySqlCommand cmd = new("INSERT INTO Usuarios (Nome, Email, Senha) VALUES (@Nome,@Email,@Senha)", conexao);
+                MySqlCommand cmd = new("INSERT INTO tbUsuarios (Nome, Email, Senha) VALUES (@Nome,@Email,@Senha)", conexao);
                 // Adiciona um parâmetro ao comando SQL para o campo 'Nome', utilizando o valor da propriedade 'Nome' do objeto 'usuario'.
                 cmd.Parameters.AddWithValue("@Nome", usuario.Nome);
                 // Adiciona um parâmetro ao comando SQL para o campo 'Email', utilizando o valor da propriedade 'Email' do objeto 'usuario'.

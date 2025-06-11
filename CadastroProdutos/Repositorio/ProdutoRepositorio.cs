@@ -23,7 +23,7 @@ namespace CadastroProdutos.Repositorio
                 /* Cria um novo comando SQL para inserir dados na tabela 'Usuario'. Os valores para Nome, Email e Senha são passados como parâmetros
                  (@Nome, @Email, @Senha) para evitar SQL Injection.*/
 
-                MySqlCommand cmd = new("INSERT INTO Produtos (Nome, Descricao, Preco, Quantidade) VALUES (@Nome,@Descricao,@Preco,@Quantidade)", conexao);
+                MySqlCommand cmd = new("INSERT INTO tbProdutos (Nome, Descricao, Preco, Quantidade) VALUES (@Nome,@Descricao,@Preco,@Quantidade)", conexao);
                 // Adiciona um parâmetro ao comando SQL para o campo 'Nome', utilizando o valor da propriedade 'Nome' do objeto 'usuario'.
                 cmd.Parameters.AddWithValue("@Nome", produto.Nome);
                 // Adiciona um parâmetro ao comando SQL para o campo 'Email', utilizando o valor da propriedade 'Email' do objeto 'usuario'.

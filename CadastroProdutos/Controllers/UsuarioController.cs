@@ -65,7 +65,7 @@ namespace Projeto1.Controllers
 
                 /* Redireciona o usuário para a action "Login" deste mesmo Controller (LoginController).
                   após um cadastro bem-sucedido, redirecionará à página de login.*/
-                return RedirectToAction("Login");
+                return RedirectToAction("CadastroProduto", "Produto");
             }
 
             /* Se o ModelState não for válido (houver erros de validação):

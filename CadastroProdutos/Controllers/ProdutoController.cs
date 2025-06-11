@@ -7,7 +7,10 @@ namespace CadastroProdutos.Controllers
     public class ProdutoController : Controller
     {
         private readonly ProdutoRepositorio _produtoRepositorio;
-
+        public ProdutoController(ProdutoRepositorio produtoRepositorio)
+        {
+            _produtoRepositorio = produtoRepositorio;
+        }
         public IActionResult CadastroProduto()
         {
             return View();
@@ -26,7 +29,7 @@ namespace CadastroProdutos.Controllers
 
                 /* Redireciona o usuário para a action "Login" deste mesmo Controller (LoginController).
                   após um cadastro bem-sucedido, redirecionará à página de login.*/
-                return RedirectToAction("Login");
+                return RedirectToAction("Index", "Home");
             }
 
             /* Se o ModelState não for válido (houver erros de validação):

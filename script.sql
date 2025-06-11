@@ -1,4 +1,4 @@
--- drop database;
+-- drop database dbCadastroProdutos;
 create database dbCadastroProdutos;
 use dbCadastroProdutos;
 
@@ -12,7 +12,7 @@ Senha varchar(50) not null
 create table tbProdutos(
 IdProd int primary key auto_increment,
 Nome varchar(50) not null,
-Descrição varchar(180) not null,
+Descricao varchar(180) not null,
 Preço decimal(6,2) not null,
 Quantidade int not null
 );
