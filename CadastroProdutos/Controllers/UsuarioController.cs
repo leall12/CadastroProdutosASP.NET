@@ -44,10 +44,6 @@ namespace Projeto1.Controllers
             //retorna view Login 
             return View();
         }
-        public IActionResult Contato()
-        {
-            return View();
-        }
 
         // Define uma action chamada Cadastro que retorna um IActionResult.
         public IActionResult Cadastro()
