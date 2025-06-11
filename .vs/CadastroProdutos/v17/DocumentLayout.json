@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\3ds\\Desktop\\CadastroProdutos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutos\\cadastroprodutos\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutos\\cadastroprodutos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutos\\cadastroprodutos\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutos\\cadastroprodutos\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutos\\cadastroprodutos\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutos\\cadastroprodutos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutos\\cadastroprodutos\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutos\\CadastroProdutos\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "CadastroProdutos\\Models\\Produto.cs",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutos\\CadastroProdutos\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "CadastroProdutos\\Models\\Usuario.cs",
@@ -56,26 +56,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ProdutoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutos\\CadastroProdutos\\Repositorio\\ProdutoRepositorio.cs",
               "RelativeDocumentMoniker": "CadastroProdutos\\Repositorio\\ProdutoRepositorio.cs",
               "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutos\\CadastroProdutos\\Repositorio\\ProdutoRepositorio.cs",
               "RelativeToolTip": "CadastroProdutos\\Repositorio\\ProdutoRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwEcAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T10:33:03.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UsuarioRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutos\\CadastroProdutos\\Repositorio\\UsuarioRepositorio.cs",
               "RelativeDocumentMoniker": "CadastroProdutos\\Repositorio\\UsuarioRepositorio.cs",
               "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutos\\CadastroProdutos\\Repositorio\\UsuarioRepositorio.cs",
               "RelativeToolTip": "CadastroProdutos\\Repositorio\\UsuarioRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T10:32:48.062Z",
               "EditorCaption": ""
