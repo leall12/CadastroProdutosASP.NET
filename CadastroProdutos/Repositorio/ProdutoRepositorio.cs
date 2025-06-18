@@ -111,7 +111,7 @@ namespace CadastroProdutos.Repositorio
                     while (dr.Read())
                     {
                         // Preenche as propriedades do objeto Produto com os valores da linha atual
-                        Produto.IdProd = Convert.ToInt32(dr["id"]);//propriedade Id e convertendo para int
+                        Produto.IdProd = Convert.ToInt32(dr["idprod"]);//propriedade Id e convertendo para int
                         Produto.Nome = (string)(dr["nome"]); // propriedade Nome e passando string
                         Produto.Descricao = (string)(dr["descricao"]); //propriedade descricao e passando string
                         Produto.Preco = Convert.ToDecimal(dr["preco"]); //propriedade preco e passando int

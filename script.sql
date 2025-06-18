@@ -19,4 +19,3 @@ Quantidade int not null
 
 select * from tbUsuarios;
 select * from tbProdutos;
-

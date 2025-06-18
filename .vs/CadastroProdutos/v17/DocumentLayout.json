@@ -3,48 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\views\\usuario\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\views\\usuario\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\views\\produto\\cadastroproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\views\\produto\\cadastroproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\views\\usuario\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\views\\usuario\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41F94817-558A-4FFE-B1E5-D4EA417BC441}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\3ds\\desktop\\cadastroprodutosasp.net\\cadastroprodutos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -62,89 +62,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Views\\Produto\\Index.cshtml",
-              "RelativeDocumentMoniker": "CadastroProdutos\\Views\\Produto\\Index.cshtml",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Views\\Produto\\Index.cshtml",
-              "RelativeToolTip": "CadastroProdutos\\Views\\Produto\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T10:27:06.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProdutoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Repositorio\\ProdutoRepositorio.cs",
-              "RelativeDocumentMoniker": "CadastroProdutos\\Repositorio\\ProdutoRepositorio.cs",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Repositorio\\ProdutoRepositorio.cs",
-              "RelativeToolTip": "CadastroProdutos\\Repositorio\\ProdutoRepositorio.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAA5wE4AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T10:33:03.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CadastroProdutos\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CadastroProdutos\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-11T11:21:21.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "CadastroProdutos\\Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Controllers\\ProdutoController.cs",
-              "RelativeToolTip": "CadastroProdutos\\Controllers\\ProdutoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T10:52:55.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "CadastroProduto.cshtml",
               "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Views\\Produto\\CadastroProduto.cshtml",
               "RelativeDocumentMoniker": "CadastroProdutos\\Views\\Produto\\CadastroProduto.cshtml",
               "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Views\\Produto\\CadastroProduto.cshtml",
               "RelativeToolTip": "CadastroProdutos\\Views\\Produto\\CadastroProduto.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-11T11:15:59.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Cadastro.cshtml",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Views\\Usuario\\Cadastro.cshtml",
-              "RelativeDocumentMoniker": "CadastroProdutos\\Views\\Usuario\\Cadastro.cshtml",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Views\\Usuario\\Cadastro.cshtml",
-              "RelativeToolTip": "CadastroProdutos\\Views\\Usuario\\Cadastro.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-11T10:58:40.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Views\\Usuario\\Login.cshtml",
               "RelativeDocumentMoniker": "CadastroProdutos\\Views\\Usuario\\Login.cshtml",
@@ -157,20 +92,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "CadastroProdutos\\Models\\Produto.cs",
               "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Models\\Produto.cs",
               "RelativeToolTip": "CadastroProdutos\\Models\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T10:34:56.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "CadastroProdutos\\Models\\Usuario.cs",
@@ -183,15 +118,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "UsuarioRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Repositorio\\UsuarioRepositorio.cs",
               "RelativeDocumentMoniker": "CadastroProdutos\\Repositorio\\UsuarioRepositorio.cs",
               "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Repositorio\\UsuarioRepositorio.cs",
               "RelativeToolTip": "CadastroProdutos\\Repositorio\\UsuarioRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwBEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T10:32:48.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "CadastroProdutos\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "CadastroProdutos\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:52:35.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Views\\Produto\\Index.cshtml",
+              "RelativeDocumentMoniker": "CadastroProdutos\\Views\\Produto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Views\\Produto\\Index.cshtml",
+              "RelativeToolTip": "CadastroProdutos\\Views\\Produto\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T10:27:06.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Repositorio\\ProdutoRepositorio.cs",
+              "RelativeDocumentMoniker": "CadastroProdutos\\Repositorio\\ProdutoRepositorio.cs",
+              "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Repositorio\\ProdutoRepositorio.cs",
+              "RelativeToolTip": "CadastroProdutos\\Repositorio\\ProdutoRepositorio.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:33:03.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CadastroProdutos\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CadastroProdutos\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T11:21:21.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "CadastroProdutos\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "CadastroProdutos\\Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:52:55.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cadastro.cshtml",
+              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Views\\Usuario\\Cadastro.cshtml",
+              "RelativeDocumentMoniker": "CadastroProdutos\\Views\\Usuario\\Cadastro.cshtml",
+              "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Views\\Usuario\\Cadastro.cshtml",
+              "RelativeToolTip": "CadastroProdutos\\Views\\Usuario\\Cadastro.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T10:58:40.896Z",
               "EditorCaption": ""
             },
             {
@@ -205,19 +218,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-11T11:19:05.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "CadastroProdutos\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\3ds\\Desktop\\CadastroProdutosASP.NET\\CadastroProdutos\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "CadastroProdutos\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwEMAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T10:52:35.37Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
