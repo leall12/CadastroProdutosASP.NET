@@ -11,6 +11,12 @@ namespace CadastroProdutos.Controllers
         {
             _produtoRepositorio = produtoRepositorio;
         }
+        public IActionResult Index()
+        {
+            /* Retorna a View padrão associada a esta Action,
+            passando como modelo a lista de todos os produtos obtido do repositório.*/
+            return View(_produtoRepositorio.TodosProdutos());
+        }
         public IActionResult CadastroProduto()
         {
             return View();

@@ -1,6 +1,7 @@
 ﻿using System.Data;
 using CadastroProdutos.Models;
 using MySql.Data.MySqlClient;
+using MySqlX.XDevAPI;
 
 namespace CadastroProdutos.Repositorio
 {
@@ -37,6 +38,47 @@ namespace CadastroProdutos.Repositorio
                 conexao.Close();
             }
         }
+     
+        // Método para listar todos os Produtos do banco de dados
+        public IEnumerable<Produto> TodosProdutos()
+        {
+            // Cria uma nova lista para armazenar os objetos Produto
+            List<Produto> Productlist = new List<Produto>();
 
+            // Bloco using para garantir que a conexão seja fechada e os recursos liberados após o uso
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
+            {
+                // Abre a conexão com o banco de dados MySQL
+                conexao.Open();
+                // Cria um novo comando SQL para selecionar todos os registros da tabela 'cliente'
+                MySqlCommand cmd = new MySqlCommand("SELECT * from tbProdutos", conexao);
+
+                // Cria um adaptador de dados para preencher um DataTable com os resultados da consulta
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                // Cria um novo DataTable
+                DataTable dt = new DataTable();
+                // metodo fill- Preenche o DataTable com os dados retornados pela consulta
+                da.Fill(dt);
+                // Fecha explicitamente a conexão com o banco de dados 
+                conexao.Close();
+
+                // interage sobre cada linha (DataRow) do DataTable
+                foreach (DataRow dr in dt.Rows)
+                {
+                    // Cria um novo objeto Cliente e preenche suas propriedades com os valores da linha atual
+                    Productlist.Add(
+                                new Produto
+                                {
+                                    IdProd = Convert.ToInt32(dr["idprod"]), // Converte o valor da coluna "codigo" para inteiro
+                                    Nome = ((string)dr["nome"]), // Converte o valor da coluna "nome" para string
+                                    Descricao = ((string)dr["descricao"]), // Converte o valor da coluna "telefone" para string
+                                    Preco = Convert.ToDecimal(dr["preco"]), // Converte o valor da coluna "email" para string
+                                    Quantidade = Convert.ToInt32(dr["quantidade"]), // Converte o valor da coluna "email" para string
+                                }); 
+                }
+                // Retorna a lista de todos os clientes
+                return Productlist;
+            }
+        }
     }
 }
