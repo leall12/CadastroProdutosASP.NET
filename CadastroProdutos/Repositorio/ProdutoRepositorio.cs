@@ -50,7 +50,7 @@ namespace CadastroProdutos.Repositorio
             {
                 // Abre a conexão com o banco de dados MySQL
                 conexao.Open();
-                // Cria um novo comando SQL para selecionar todos os registros da tabela 'cliente'
+                // Cria um novo comando SQL para selecionar todos os registros da tabela 'tbProdutos'
                 MySqlCommand cmd = new MySqlCommand("SELECT * from tbProdutos", conexao);
 
                 // Cria um adaptador de dados para preencher um DataTable com os resultados da consulta
@@ -74,11 +74,54 @@ namespace CadastroProdutos.Repositorio
                                     Descricao = ((string)dr["descricao"]), // Converte o valor da coluna "telefone" para string
                                     Preco = Convert.ToDecimal(dr["preco"]), // Converte o valor da coluna "email" para string
                                     Quantidade = Convert.ToInt32(dr["quantidade"]), // Converte o valor da coluna "email" para string
-                                }); 
+                                });
                 }
-                // Retorna a lista de todos os clientes
+                // Retorna a lista de todos os produtos
                 return Productlist;
             }
         }
+
+            // Método para buscar um Produto específico pelo seu código (Id)
+            public Produto ObterProduto(int IdProd)
+            {
+                // Bloco using para garantir que a conexão seja fechada e os recursos liberados após o uso
+                using (var conexao = new MySqlConnection(_conexaoMySQL))
+                {
+                    // Abre a conexão com o banco de dados MySQL
+                    conexao.Open();
+                    // Cria um novo comando SQL para selecionar um registro da tabela 'Produto' com base no código
+                    MySqlCommand cmd = new MySqlCommand("SELECT * from tbProdutos where idprod=@idprod ", conexao);
+
+                    // Adiciona um parâmetro para o código a ser buscado, definindo seu tipo e valor
+                    cmd.Parameters.AddWithValue("@idprod", IdProd);
+
+                    // Cria um adaptador de dados (não utilizado diretamente para ExecuteReader)
+                    MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+
+                    // Declara um leitor de dados do MySQL
+                    MySqlDataReader dr;
+                    // Cria um novo objeto Produto para armazenar os resultados
+                    Produto Produto = new Produto();
+
+                    /* Executa o comando SQL e retorna um objeto MySqlDataReader para ler os resultados
+                    CommandBehavior.CloseConnection garante que a conexão seja fechada quando o DataReader for fechado*/
+
+                    dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                    // Lê os resultados linha por linha
+                    while (dr.Read())
+                    {
+                        // Preenche as propriedades do objeto Produto com os valores da linha atual
+                        Produto.IdProd = Convert.ToInt32(dr["id"]);//propriedade Id e convertendo para int
+                        Produto.Nome = (string)(dr["nome"]); // propriedade Nome e passando string
+                        Produto.Descricao = (string)(dr["descricao"]); //propriedade descricao e passando string
+                        Produto.Preco = Convert.ToDecimal(dr["preco"]); //propriedade preco e passando int
+                        Produto.Quantidade = Convert.ToInt32(dr["quantidade"]);
+                    }
+                    // Retorna o objeto Produto encontrado (ou um objeto com valores padrão se não encontrado)
+                    return Produto;
+                }
+            }
+
+        
     }
 }
