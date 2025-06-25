@@ -1,4 +1,4 @@
--- drop database dbCadastroProdutos;
+drop database dbCadastroProdutos;
 create database dbCadastroProdutos;
 use dbCadastroProdutos;
 

@@ -26,12 +26,13 @@ namespace CadastroProdutos.Repositorio
 
                 MySqlCommand cmd = new("INSERT INTO tbProdutos (Nome, Descricao, Preco, Quantidade) VALUES (@Nome,@Descricao,@Preco,@Quantidade)", conexao);
                 // Adiciona um parâmetro ao comando SQL para o campo 'Nome', utilizando o valor da propriedade 'Nome' do objeto 'usuario'.
-                cmd.Parameters.AddWithValue("@Nome", produto.Nome);
+                cmd.Parameters.Add("@Nome",MySqlDbType.VarChar).Value = produto.Nome;
+
                 // Adiciona um parâmetro ao comando SQL para o campo 'Email', utilizando o valor da propriedade 'Email' do objeto 'usuario'.
-                cmd.Parameters.AddWithValue("@Descricao", produto.Descricao);
+                cmd.Parameters.Add("@Descricao", MySqlDbType.VarChar).Value = produto.Descricao;
                 // Adiciona um parâmetro ao comando SQL para o campo 'Senha', utilizando o valor da propriedade 'Senha' do objeto 'usuario'.
-                cmd.Parameters.AddWithValue("@Preco", produto.Preco);
-                cmd.Parameters.AddWithValue("@Quantidade", produto.Quantidade);
+                cmd.Parameters.Add("@Preco", MySqlDbType.Decimal).Value = produto.Preco;
+                cmd.Parameters.Add("@Quantidade", MySqlDbType.Int32).Value = produto.Quantidade;
                 // Executa o comando SQL INSERT no banco de dados. Retorna o número de linhas afetadas.
                 cmd.ExecuteNonQuery();
                 // Fecha a conexão com o banco de dados (embora o 'using' já faria isso, só garante o fechamento).
@@ -69,11 +70,11 @@ namespace CadastroProdutos.Repositorio
                     Productlist.Add(
                                 new Produto
                                 {
-                                    IdProd = Convert.ToInt32(dr["idprod"]), // Converte o valor da coluna "codigo" para inteiro
-                                    Nome = ((string)dr["nome"]), // Converte o valor da coluna "nome" para string
-                                    Descricao = ((string)dr["descricao"]), // Converte o valor da coluna "telefone" para string
-                                    Preco = Convert.ToDecimal(dr["preco"]), // Converte o valor da coluna "email" para string
-                                    Quantidade = Convert.ToInt32(dr["quantidade"]), // Converte o valor da coluna "email" para string
+                                    IdProd = Convert.ToInt32(dr["IdProd"]), // Converte o valor da coluna "codigo" para inteiro
+                                    Nome = ((string)dr["Nome"]), // Converte o valor da coluna "nome" para string
+                                    Descricao = ((string)dr["Descricao"]), // Converte o valor da coluna "telefone" para string
+                                    Preco = Convert.ToDecimal(dr["Preco"]), // Converte o valor da coluna "email" para string
+                                    Quantidade = Convert.ToInt32(dr["Quantidade"]), // Converte o valor da coluna "email" para string
                                 });
                 }
                 // Retorna a lista de todos os produtos
@@ -90,7 +91,7 @@ namespace CadastroProdutos.Repositorio
                     // Abre a conexão com o banco de dados MySQL
                     conexao.Open();
                     // Cria um novo comando SQL para selecionar um registro da tabela 'Produto' com base no código
-                    MySqlCommand cmd = new MySqlCommand("SELECT * from tbProdutos where idprod=@idprod ", conexao);
+                    MySqlCommand cmd = new MySqlCommand("SELECT * from tbProdutos where IdProd=@idprod ", conexao);
 
                     // Adiciona um parâmetro para o código a ser buscado, definindo seu tipo e valor
                     cmd.Parameters.AddWithValue("@idprod", IdProd);
@@ -111,11 +112,11 @@ namespace CadastroProdutos.Repositorio
                     while (dr.Read())
                     {
                         // Preenche as propriedades do objeto Produto com os valores da linha atual
-                        Produto.IdProd = Convert.ToInt32(dr["idprod"]);//propriedade Id e convertendo para int
-                        Produto.Nome = (string)(dr["nome"]); // propriedade Nome e passando string
-                        Produto.Descricao = (string)(dr["descricao"]); //propriedade descricao e passando string
-                        Produto.Preco = Convert.ToDecimal(dr["preco"]); //propriedade preco e passando int
-                        Produto.Quantidade = Convert.ToInt32(dr["quantidade"]);
+                        Produto.IdProd = Convert.ToInt32(dr["IdProd"]);//propriedade Id e convertendo para int
+                        Produto.Nome = (string)(dr["Nome"]); // propriedade Nome e passando string
+                        Produto.Descricao = (string)(dr["Descricao"]); //propriedade descricao e passando string
+                        Produto.Preco = Convert.ToDecimal(dr["Preco"]); //propriedade preco e passando int
+                        Produto.Quantidade = Convert.ToInt32(dr["Quantidade"]);
                     }
                     // Retorna o objeto Produto encontrado (ou um objeto com valores padrão se não encontrado)
                     return Produto;
